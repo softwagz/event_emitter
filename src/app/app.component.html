@@ -1,0 +1,13 @@
+<div class="container text-center" style="margin-bottom: 5rem;">
+  <h1>Creando Preguntas</h1>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <app-preguntas (emitirData)="recibirPregunta($event)"></app-preguntas>
+    </div>
+    <div class="col-md-6 text-center">
+      <app-lista-preguntas [preguntas]="listado_de_preguntas"></app-lista-preguntas>
+    </div>
+  </div>
+</div>
